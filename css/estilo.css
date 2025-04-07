@@ -1,0 +1,12 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Verdana,Tahoma;
+}
+ #interface{
+   margin: 0 auto;
+   width: 1300px; 
+ }
+ h1{
+    color: green;
+    margin:50px 150px  50px 100px;        ;
+ }
