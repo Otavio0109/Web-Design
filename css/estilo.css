@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-size: 18px;
     font-family: Arial, Verdana,Tahoma;
 }
- #interface{
+ div#interface{
    margin: 0 auto;
    width: 1300px; 
  }
- h1{
-    color: green;
-    margin:50px 150px  50px 100px;        ;
+ header {
+   background-color: #253526;
+   height: 60px;
+   padding: 10px;
  }
+ .logo{float: left;}
+
+ 
+.logo h1 img{
+  width: 60px;
+  vertical-align: middle;
+}
+
+ .social{
+  float: right;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+         
+
+ .titulo1{
+    color: #fff;
+   font-family: 'Roboto';
+    /* margin:50px 150px  50px 100px;        ; */
+    margin: 0px;
+  }
