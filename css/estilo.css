@@ -35,13 +35,39 @@ body{
      text-transform: uppercase;
      font-style: italic;
 }
-.menu{
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-    
+.menu ul{
+      text-align: center;
+      list-style: none;
+      margin: 0;
+      padding: 10px 0 0;
 }
+    
+
 .menu ul li{
   display: inline;
+}
+.menu a :houver{
+  color:#fff;
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: rgb(255, 193, 7);
+  padding: 5px 15px;
+}
+banner {
+  background-image:url(../imagens/banner.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.banner p{
+  margin: 0;
+  text-align: center;
+  padding-top: 175px;
+  font-size: 75px;
+  font-weight: bold;
+  
 }
